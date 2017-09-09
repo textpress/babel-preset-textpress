@@ -1,7 +1,7 @@
 {
   "name": "@textpress/babel-preset-textpress",
   "description": "Textpress' babel preset",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "scripts": {
     "bump": "gulp bump --version"
