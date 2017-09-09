@@ -7,7 +7,7 @@
     "bump": "gulp bump --version"
   },
   "devDependencies": {
-    "@textpress/bump-version": ">=0.0.2",
+    "@textpress/gulp-bump-version": ">=0.1.0",
     "gulp": ">=3.9.1",
     "yargs": "^8.0.2"
   },

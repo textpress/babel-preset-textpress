@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@textpress/bump-version@>=0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@textpress/bump-version/-/bump-version-0.0.2.tgz#8c856bb4fc029d0759c161772d02193d67ea5fd1"
+"@textpress/gulp-bump-version@>=0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@textpress/gulp-bump-version/-/gulp-bump-version-0.1.0.tgz#41a6f24e02d27de29a4fc3e54e0367fb44528f4d"
   dependencies:
     gulp ">=3.9.1"
     gulp-confirm ">=1.0.6"
