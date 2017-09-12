@@ -4,10 +4,10 @@
   "version": "0.0.2",
   "main": "index.js",
   "scripts": {
-    "bump": "gulp bump --version"
+    "bump": "gulp bump --part"
   },
   "devDependencies": {
-    "@textpress/gulp-bump-version": ">=0.1.0",
+    "@textpress/gulp-bump-version": ">=0.2.0",
     "gulp": ">=3.9.1",
     "yargs": ">=8.0.2"
   },
