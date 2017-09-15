@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "bump": "gulp bump --part",
-        "ci-release-note": "conventional-github-releaser -p eslint"
+        "ci-release-notes": "conventional-github-releaser -p eslint"
     },
     "devDependencies": {
         "@textpress/gulp-bump-version": ">=0.2.0",
