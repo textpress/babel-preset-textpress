@@ -4,10 +4,12 @@
   "version": "0.1.0",
   "main": "index.js",
   "scripts": {
-    "bump": "gulp bump --part"
+    "bump": "gulp bump --part",
+    "ci-release-note": "conventional-github-releaser -p eslint"
   },
   "devDependencies": {
     "@textpress/gulp-bump-version": ">=0.2.0",
+    "conventional-github-releaser": ">=1.1.12",
     "gulp": ">=3.9.1",
     "yargs": ">=8.0.2"
   },
