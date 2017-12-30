@@ -8,7 +8,7 @@ module.exports = function ( context, opts ) {
             require( "babel-preset-flow" )
         ],
         plugins: [
-            [ require( "babel-plugin-conditional-compilation" ), { "DEBUG": process.env.BABEL_ENV === "development" } ],
+            [ require( "babel-plugin-conditional-compilation" ).default, { "DEBUG": process.env.BABEL_ENV === "development" } ],
             require( "babel-plugin-transform-class-properties" ),
             require( "babel-plugin-transform-object-rest-spread" ),
             require( "babel-plugin-transform-runtime" )
